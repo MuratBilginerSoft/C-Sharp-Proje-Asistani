@@ -1,0 +1,87 @@
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.pdb
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0.Properties.Resources.resources
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._00AnaForm.resources
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csproj.GenerateResource.Cache
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.exe
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.pdb
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._01BaslangicForm.resources
+C:\Users\Murat Bilginer\Desktop\Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._02GirisForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.exe
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.pdb
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0.Properties.Resources.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._00AnaForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._01BaslangicForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._02GirisForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csproj.GenerateResource.Cache
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe.config
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.pdb
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\GistwayZenon.dll
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\GistwayZenon.pdb
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._03AdminForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._05PersonelEkleForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._06PersonelBilgisiForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._08ProjeEkleForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._04AnaSayfaForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._07ProjeBilgisiForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._09ProjeAtamaForm.resources
+C:\Users\Murat Bilginer\Desktop\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csprojResolveAssemblyReference.cache
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe.config
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.exe
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.pdb
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csprojResolveAssemblyReference.cache
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0.Properties.Resources.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._00AnaForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._01BaslangicForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._02GirisForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._03AdminForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._04AnaSayfaForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._05PersonelEkleForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._06PersonelBilgisiForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._07ProjeBilgisiForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._08ProjeEkleForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._09ProjeAtamaForm.resources
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csproj.GenerateResource.Cache
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.pdb
+C:\Users\Kübra Topbaş\Desktop\İlk Proje Çalışan\İlk Proje Çalışan\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\GistwayZenon.pdb
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe.config
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.exe
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.pdb
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.pdb
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0.Properties.Resources.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._00AnaForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._01BaslangicForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._02GirisForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._03AdminForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._04AnaSayfaForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._05PersonelEkleForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._06PersonelBilgisiForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._07ProjeBilgisiForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._08ProjeEkleForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._09ProjeAtamaForm.resources
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csproj.GenerateResource.Cache
+C:\Users\mrt_b\Desktop\01 Proje Asistanı v1.0\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csprojResolveAssemblyReference.cache
+C:\Users\mrt_b\Desktop\Proje Tamamı\Büyük Projeler\01 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe.config
+C:\Users\mrt_b\Desktop\Proje Tamamı\Büyük Projeler\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.exe
+C:\Users\mrt_b\Desktop\Proje Tamamı\Büyük Projeler\01 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.pdb
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe.config
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.exe
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.pdb
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.exe
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\bin\Debug\Proje Asistanı v1.0.pdb
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csprojResolveAssemblyReference.cache
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0.Properties.Resources.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._00AnaForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._01BaslangicForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._02GirisForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._03AdminForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._04AnaSayfaForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._05PersonelEkleForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._06PersonelBilgisiForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._07ProjeBilgisiForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._08ProjeEkleForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje_Asistanı_v1._0._09ProjeAtamaForm.resources
+E:\04 - Yazılım\05 - Büyük Projeler\93 Proje Asistanı v1.0\Proje Asistanı v1.0\obj\x86\Debug\Proje Asistanı v1.0.csproj.GenerateResource.Cache

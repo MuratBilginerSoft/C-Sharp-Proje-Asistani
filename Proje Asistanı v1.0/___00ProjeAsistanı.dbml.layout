@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.375" name="___00ProjeAsistanı">
+  <DataContextMoniker Name="/___00ProjeAsistanıDataContext" />
+  <nestedChildShapes>
+    <classShape Id="11cdd1c1-e19c-45d1-a425-e2b0031e5edf" absoluteBounds="0.75, 8.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/Ücretlendirme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6593705f-a9ac-4eaf-a39b-c63f1f329817" absoluteBounds="0.765, 9.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="943f44ce-7b5d-4837-977f-a37b5f0bfc1f" absoluteBounds="3.75, 8.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/YetenekBilgisi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcecd97b-a7bc-4298-a0ed-a3c653a29505" absoluteBounds="3.765, 9.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="420453d6-f1ac-49dc-906e-28bf6f3fe855" absoluteBounds="0.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/PersonelBilgisi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4828dced-797a-46f9-a53b-45fb0b4cb910" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8e8cfcf-ada3-4631-becb-575ccd1b7051" absoluteBounds="3.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/YoneticiBilgisi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84c4e8f2-39ae-4e7d-afb6-91e9247d82e7" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d037072-bf23-40e3-8150-2313985a6119" absoluteBounds="3.75, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/PersonelYetenek" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ef7bd785-a70a-4ac1-a31c-9d8363dbcc9e" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae621bc7-a13d-4245-b56f-406fccfd45e4" absoluteBounds="0.75, 5.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/ProjeBilgi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0face277-d11f-4e2a-b16c-c09717b0a4ad" absoluteBounds="0.765, 6.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7352b5df-9e9d-4c44-932c-17226a6c106c" absoluteBounds="3.75, 5.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/ProjeDetay" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d823c07-00e3-46bb-8c8b-5b2bf8a03f1f" absoluteBounds="3.765, 6.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5bbb6178-514f-4ab7-83fd-b74926dc9c10" absoluteBounds="6.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/ProjeDurumu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="681ab994-0359-48f3-97e1-7351bfd3a962" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="385e5816-338a-4f93-93e0-c193baf4f399" absoluteBounds="6.75, 2.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/ProjeGörevDağılımı" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00268640-41a1-41d7-b9bc-24740af16bcf" absoluteBounds="6.765, 3.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68aa6c68-339d-4c30-a763-766535e72dd9" absoluteBounds="6.75, 5.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/___00ProjeAsistanıDataContext/ProjeUstaAtaması" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfe8c057-2a0d-4c0c-8b4d-866b8fdbaa1c" absoluteBounds="6.765, 6.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

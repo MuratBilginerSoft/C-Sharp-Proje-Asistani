@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProjeYönetimiX" Class="___00ProjeAsistanıDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-AJ17JC1;Initial Catalog=ProjeYönetimiX;Integrated Security=True" SettingsObjectName="Proje_Asistanı_v1._0.Properties.Settings" SettingsPropertyName="ProjeYönetimiXConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ücretlendirme" Member="Ücretlendirmes">
+    <Type Name="Ücretlendirme">
+      <Column Name="ÜcretNumarasi" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.YetenekBilgisi" Member="YetenekBilgisis">
+    <Type Name="YetenekBilgisi">
+      <Column Name="YetenekNumarasi" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="YetenekAdi" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonelBilgisi" Member="PersonelBilgisis">
+    <Type Name="PersonelBilgisi">
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyadi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ÜcretNumarasi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Durum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="İsBaslangic" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="İsBitis" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="YorgunlukPayi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.YoneticiBilgisi" Member="YoneticiBilgisis">
+    <Type Name="YoneticiBilgisi">
+      <Column Name="PERSONEL_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PASSWORD" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AUTHORITY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PICTURE" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonelYetenek" Member="PersonelYeteneks">
+    <Type Name="PersonelYetenek">
+      <Column Name="PersonelNumarasi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YetenekNumarasi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjeBilgi" Member="ProjeBilgis">
+    <Type Name="ProjeBilgi">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjeDetay" Member="ProjeDetays">
+    <Type Name="ProjeDetay">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevSüresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsciSayisi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaslangic" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GorevBitis" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjeDurumu" Member="ProjeDurumus">
+    <Type Name="ProjeDurumu">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeDurumu" Member="ProjeDurumu1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjeGörevDağılımı" Member="ProjeGörevDağılımıs">
+    <Type Name="ProjeGörevDağılımı">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaşlangıç" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevBitiş" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjeUstaAtaması" Member="ProjeUstaAtamasıs">
+    <Type Name="ProjeUstaAtaması">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ÇalışmaGünü" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ToplamÜcret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.ÜcretlendirmeData" Method="ÜcretlendirmeData">
+    <ElementType Name="ÜcretlendirmeDataResult">
+      <Column Name="ÜcretNumarasi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_AtanacakProje" Method="SP_AtanacakProje">
+    <ElementType Name="SP_AtanacakProjeResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_EnDüşükTarih" Method="SP_EnDüşükTarih">
+    <ElementType Name="SP_EnDüşükTarihResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_EnYüksekTarih" Method="SP_EnYüksekTarih">
+    <ElementType Name="SP_EnYüksekTarihResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_Giris" Method="SP_Giris">
+    <Parameter Name="Adi" Parameter="adi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Sifre" Parameter="sifre" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Deger" Parameter="deger" Type="System.String" DbType="NVarChar(2)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_GörevDağılımıEkle" Method="SP_GörevDağılımıEkle">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PersonelNumarası" Parameter="personelNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Görevİsmi" Parameter="görevİsmi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevBaşlangıç" Parameter="görevBaşlangıç" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="GörevBitiş" Parameter="görevBitiş" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Ücret" Parameter="ücret" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_GörevDağılımıGetir" Method="SP_GörevDağılımıGetir">
+    <ElementType Name="SP_GörevDağılımıGetirResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaşlangıç" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevBitiş" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_GörevDağılımıProjeBazlı" Method="SP_GörevDağılımıProjeBazlı">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Ücret" Parameter="ücret" Type="System.String" DbType="NVarChar(10)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_GörevDağılımıProjeBazlıTümVeri" Method="SP_GörevDağılımıProjeBazlıTümVeri">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <ElementType Name="SP_GörevDağılımıProjeBazlıTümVeriResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaşlangıç" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevBitiş" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_IsciTürüNo" Method="SP_IsciTürüNo">
+    <Parameter Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="ÜcretNumarasi" Parameter="ücretNumarasi" Type="System.String" DbType="NVarChar(3)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_OlumluİşçiSayısı" Method="SP_OlumluİşçiSayısı">
+    <Parameter Name="YetenekNumarası" Parameter="yetenekNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="İşçiSayısı" Type="System.String" DbType="NVarChar(3)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelBilgisiEkle" Method="SP_PersonelBilgisiEkle">
+    <Parameter Name="PersonelNumarası" Parameter="personelNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Adi" Parameter="adi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Soyadi" Parameter="soyadi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ÜcretNumarası" Parameter="ücretNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Durum" Parameter="durum" Type="System.Int32" DbType="Int" />
+    <Parameter Name="İşBaşlangıç" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="işBitiş" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Yorgunluk" Parameter="yorgunluk" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelDurumGüncelle" Method="SP_PersonelDurumGüncelle">
+    <Parameter Name="PersonelNumarası" Parameter="personelNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="İşBaşlangıç" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="İşBitiş" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelDurumGüncelle2" Method="SP_PersonelDurumGüncelle2">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.String" DbType="NVarChar(7)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelYetenekEkle" Method="SP_PersonelYetenekEkle">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="YetenekNo" Parameter="yetenekNo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeBilgisiEkle" Method="SP_ProjeBilgisiEkle">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ProjeAdi" Parameter="projeAdi" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="ProjeBaslangic" Parameter="projeBaslangic" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ProjeBitis" Parameter="projeBitis" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ProjeDurum" Parameter="projeDurum" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ProjeGün" Parameter="projeGün" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeDetayData" Method="SP_ProjeDetayData">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <ElementType Name="SP_ProjeDetayDataResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevSüresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsciSayisi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaslangic" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GorevBitis" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_ProjeDetayEkle" Method="SP_ProjeDetayEkle">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevIsmi" Parameter="görevIsmi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevSüresi" Parameter="görevSüresi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsciSayisi" Parameter="isciSayisi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevBaslangic" Parameter="görevBaslangic" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="GörevBitis" Parameter="görevBitis" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="GörevDurumu" Parameter="görevDurumu" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeDurumuEkle" Method="SP_ProjeDurumuEkle">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ProjeDurumu" Parameter="projeDurumu" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeGünSayısı" Method="SP_ProjeGünSayısı">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GünSayısı" Parameter="günSayısı" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeİşçiToplamÜcret" Method="SP_ProjeİşçiToplamÜcret">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Ücret1" Parameter="ücret1" Type="System.String" DbType="NVarChar(10)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeSeç" Method="SP_ProjeSeç">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeUstaAta" Method="SP_ProjeUstaAta">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PersonelNumarası" Parameter="personelNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ÇalışmaGünü" Parameter="çalışmaGünü" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ToplamÜcret" Parameter="toplamÜcret" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeUstaToplamÜcret" Method="SP_ProjeUstaToplamÜcret">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Ücret1" Parameter="ücret1" Type="System.String" DbType="NVarChar(10)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Temizle" Method="SP_Temizle">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ÜcretlendirmeData" Method="SP_ÜcretlendirmeData">
+    <ElementType Name="SP_ÜcretlendirmeDataResult">
+      <Column Name="ÜcretNumarasi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_YetenekData" Method="SP_YetenekData">
+    <ElementType Name="SP_YetenekDataResult">
+      <Column Name="YetenekNumarasi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="YetenekAdi" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_YetenekNoGetir" Method="SP_YetenekNoGetir">
+    <Parameter Name="YetenekAdi" Parameter="yetenekAdi" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="YetenekNo" Parameter="yetenekNo" Type="System.String" DbType="NVarChar(3)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_YoneticiBilgisi" Method="SP_YoneticiBilgisi">
+    <Parameter Name="Adi" Parameter="adi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.String" DbType="NVarChar(50)" Direction="InOut" />
+    <Parameter Name="Adi2" Parameter="adi2" Type="System.String" DbType="NVarChar(50)" Direction="InOut" />
+    <Parameter Name="Authority" Parameter="authority" Type="System.String" DbType="NVarChar(2)" Direction="InOut" />
+    <Parameter Name="Picture" Parameter="picture" Type="System.String" DbType="NVarChar(250)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeSayısı" Method="SP_ProjeSayısı">
+    <Parameter Name="Count" Parameter="count" Type="System.String" DbType="NVarChar(3)" Direction="InOut" />
+    <Parameter Name="Count2" Parameter="count2" Type="System.String" DbType="NVarChar(3)" Direction="InOut" />
+    <Parameter Name="Count3" Parameter="count3" Type="System.String" DbType="NVarChar(3)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelYetenekGetir" Method="SP_PersonelYetenekGetir">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.Int32" DbType="Int" />
+    <ElementType Name="SP_PersonelYetenekGetirResult">
+      <Column Name="YetenekNumarasi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_PersonelYetenekSil" Method="SP_PersonelYetenekSil">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelBilgisiGüncelle" Method="SP_PersonelBilgisiGüncelle">
+    <Parameter Name="PersonelNumarası" Parameter="personelNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Adi" Parameter="adi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Soyadi" Parameter="soyadi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ÜcretNumarası" Parameter="ücretNumarası" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelSil" Method="SP_PersonelSil">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PersonelBilgisi" Method="SP_PersonelBilgisi">
+    <ElementType Name="SP_PersonelBilgisiResult">
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyadi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Durum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YorgunlukPayi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_ÜcretBilgisiGetir" Method="SP_ÜcretBilgisiGetir">
+    <ElementType Name="SP_ÜcretBilgisiGetirResult">
+      <Column Name="ÜcretNumarasi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_ÜcretBirimiEkle" Method="SP_ÜcretBirimiEkle">
+    <Parameter Name="ÜcretNo" Parameter="ücretNo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="Ücret" Parameter="ücret" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ÜcretBirimiGüncelle" Method="SP_ÜcretBirimiGüncelle">
+    <Parameter Name="ÜcretNo" Parameter="ücretNo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="İşçiStatü" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="Ücret" Parameter="ücret" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ÜcretBirimiSil" Method="SP_ÜcretBirimiSil">
+    <Parameter Name="ÜcretNo" Parameter="ücretNo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeBilgiGüncelle" Method="SP_ProjeBilgiGüncelle">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ProjeAdi" Parameter="projeAdi" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="ProjeBaslangic" Parameter="projeBaslangic" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ProjeBitis" Parameter="projeBitis" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ProjeGün" Parameter="projeGün" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeBilgiSil" Method="SP_ProjeBilgiSil">
+    <Parameter Name="ProjeNo" Parameter="projeNo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeBilgiGetir" Method="SP_ProjeBilgiGetir">
+    <ElementType Name="SP_ProjeBilgiGetirResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_ProjeDetayGüncelle" Method="SP_ProjeDetayGüncelle">
+    <Parameter Name="ProjeNumarası" Parameter="projeNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevIsmi" Parameter="görevIsmi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevSüresi" Parameter="görevSüresi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsciSayisi" Parameter="isciSayisi" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GörevBaslangic" Parameter="görevBaslangic" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="GörevBitis" Parameter="görevBitis" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeDetaySil" Method="SP_ProjeDetaySil">
+    <Parameter Name="ProjeNo" Parameter="projeNo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Görevİsmi" Parameter="görevİsmi" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ProjeBilgiŞart" Method="SP_ProjeBilgiŞart">
+    <Parameter Name="ProjeNum" Parameter="projeNum" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_ProjeBilgiŞartResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_AtanacakGörevler" Method="SP_AtanacakGörevler">
+    <Parameter Name="ProjeNo" Parameter="projeNo" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_AtanacakGörevlerResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevSüresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsciSayisi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaslangic" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GorevBitis" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_AtanacakProjeGün" Method="SP_AtanacakProjeGün">
+    <Parameter Name="ProjeNum" Parameter="projeNum" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_AtanacakProjeGünResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBaşlangıçTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeBitişTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ProjeDurumu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeGün" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_ProjeUstaGöster" Method="SP_ProjeUstaGöster">
+    <Parameter Name="ProjeNum" Parameter="projeNum" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_ProjeUstaGösterResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ÇalışmaGünü" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ToplamÜcret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_MüsaitFirmaİşçisi" Method="SP_MüsaitFirmaİşçisi">
+    <Parameter Name="GörevNumarası" Parameter="görevNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_MüsaitFirmaİşçisiResult">
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="YorgunlukPayi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_MüsaitFirmaUstaları" Method="SP_MüsaitFirmaUstaları">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_MüsaitFirmaUstalarıResult">
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_MüsaitTaşeronİşçisi" Method="SP_MüsaitTaşeronİşçisi">
+    <Parameter Name="GörevNumarası" Parameter="görevNumarası" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_MüsaitTaşeronİşçisiResult">
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="YorgunlukPayi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_MüsaitTaşeronUstaları" Method="SP_MüsaitTaşeronUstaları">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.String" DbType="NVarChar(2)" />
+    <ElementType Name="SP_MüsaitTaşeronUstalarıResult">
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_PersonelDurumuX" Method="SP_PersonelDurumuX">
+    <Parameter Name="PersonelNo" Parameter="personelNo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Tarih" Parameter="tarih" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="SP_PersonelDurumuXResult">
+      <Column Name="ProjeNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PersonelNumarası" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Görevİsmi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevBaşlangıç" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GörevBitiş" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Ücret" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Deneme" Method="Deneme">
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
